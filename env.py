@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+API_ID = os.getenv("API_ID", "20783349").strip()
+API_HASH = os.getenv("API_HASH", "ca6822288826f84ade23f7a097c0281c").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6703860207:AAEm1z0zC99iQme4T5tI-Qv13SAbTpXCw9o").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///kuntul.db").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "-1001794660377")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
